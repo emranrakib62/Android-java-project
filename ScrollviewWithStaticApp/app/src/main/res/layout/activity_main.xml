@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beauty of Bangladesh"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:background="@color/yellow"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/natural" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I was in Bandarban towards the end of this April. An extended holiday weekend had just begun, with fatigued tourists crossing hundreds of miles from around the country to reach this dreamy south-eastern district of Bangladesh. Bandarban, with its remote tribal villages, many still cut off from the outside world, its mountains and springs, blissfully simple life, and the beautiful Sangu with its rocky riverbed, rapids and boulders, is like a Mecca for both nature-lovers and adventure-seekers\n"/>
+
+
+
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/images"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I was in Bandarban towards the end of this April. An extended holiday weekend had just begun, with fatigued tourists crossing hundreds of miles from around the country to reach this dreamy south-eastern district of Bangladesh. Bandarban, with its remote tribal villages, many still cut off from the outside world, its mountains and springs, blissfully simple life, and the beautiful Sangu with its rocky riverbed, rapids and boulders, is like a Mecca for both nature-lovers and adventure-seekers\n"/>
+
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click Here to know more"
+                android:layout_marginBottom="25dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+</LinearLayout>
