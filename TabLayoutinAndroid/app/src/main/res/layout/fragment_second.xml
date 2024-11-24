@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="match_parent"
+        android:text="1. Fundamentals
+Circuit theory and analysis.
+Ohm’s Law, Kirchhoff’s Laws, or Thevenin’s Theorem.
+2. Electronics
+Semiconductors, diodes, and transistors.
+Operational amplifiers (Op-Amps) and their applications.
+Digital electronics: Logic gates, flip-flops, or microcontrollers.
+3. Power Systems
+Generation, transmission, and distribution of electricity.
+Renewable energy technologies (solar, wind, etc.).
+Power electronics and inverters.
+4. Communication Systems
+Analog and digital communication principles.
+Signal processing and modulation techniques.
+5. Control Systems
+Feedback systems and stability analysis.
+Applications of PID controllers.
+6. Embedded Systems
+Microcontroller programming (e.g., Arduino, Raspberry Pi).
+Internet of Things (IoT) projects.
+7. Robotics
+Motor drivers, sensors, and control mechanisms.
+Integration with AI or machine learning.
+8. Career Advice
+EEE job prospects in industries like automation, telecommunications, or renewable energy.
+Certifications (e.g., MATLAB, AutoCAD Electrical)." />
+
+</FrameLayout>
